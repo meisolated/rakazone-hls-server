@@ -1,0 +1,28 @@
+{
+    "name": "rakazone_hls_server",
+    "version": "1.0.0",
+    "main": "api.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon src/api.js",
+        "install:clean": "rm -rf node_modules/ && rm -rf yarn.lock && yarn"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.0.1",
+        "express": "^4.17.3",
+        "express-mysql-session": "^2.1.8",
+        "helmet": "^5.0.2",
+        "morgan": "^1.10.0",
+        "mysql2": "^2.3.3",
+        "sequelize": "^6.19.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16",
+        "ytdl-core": "^4.11.0"
+    }
+}
